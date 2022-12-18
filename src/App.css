@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+body{
+    background: linear-gradient(90deg, #39289F, #422F9C);
+    color:#fff !important;
+}
+.accordion-button{
+    background-color: #212529 !important;
+    color: #fff !important;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cursor-pointer{
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* some styling for pagination*/
+.paginationBttns {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.paginationBttns a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 1px #212529;
+    color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.paginationBttns a:hover {
+    background: #212529;
+    color: #fff !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.paginationActive a {
+    background: #093f65;
+    color: #fff !important;
 }
