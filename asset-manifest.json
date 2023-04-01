@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Gg-Giveaway-react/static/css/main.63dbb96d.css",
-    "main.js": "/Gg-Giveaway-react/static/js/main.c4123355.js",
+    "main.css": "/Gg-Giveaway-react/static/css/main.c2ef0b9e.css",
+    "main.js": "/Gg-Giveaway-react/static/js/main.4bd12a2e.js",
     "static/js/787.39bb0775.chunk.js": "/Gg-Giveaway-react/static/js/787.39bb0775.chunk.js",
     "static/media/aboutUsHeroBanner.png": "/Gg-Giveaway-react/static/media/aboutUsHeroBanner.b343e58ce2ebf48ca52f.png",
     "static/media/Rectangle5.png": "/Gg-Giveaway-react/static/media/Rectangle5.19433962eb3e353dcd80.png",
@@ -9,12 +9,12 @@
     "static/media/hugeGlobal.png": "/Gg-Giveaway-react/static/media/hugeGlobal.4a9eff89f585d655e7de.png",
     "static/media/joy_stick 1.png": "/Gg-Giveaway-react/static/media/joy_stick 1.76b6edf936c7a6f4fc36.png",
     "index.html": "/Gg-Giveaway-react/index.html",
-    "main.63dbb96d.css.map": "/Gg-Giveaway-react/static/css/main.63dbb96d.css.map",
-    "main.c4123355.js.map": "/Gg-Giveaway-react/static/js/main.c4123355.js.map",
+    "main.c2ef0b9e.css.map": "/Gg-Giveaway-react/static/css/main.c2ef0b9e.css.map",
+    "main.4bd12a2e.js.map": "/Gg-Giveaway-react/static/js/main.4bd12a2e.js.map",
     "787.39bb0775.chunk.js.map": "/Gg-Giveaway-react/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63dbb96d.css",
-    "static/js/main.c4123355.js"
+    "static/css/main.c2ef0b9e.css",
+    "static/js/main.4bd12a2e.js"
   ]
 }
