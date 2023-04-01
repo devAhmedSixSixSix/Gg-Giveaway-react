@@ -12,9 +12,10 @@ The main challenge is to build out this full page website with react and get it 
 Users should be able to:
 
 1. View the optimal layout depending on their device's screen size.
-3. See the Games detils
-4. See Realted Games 
-7. I do not have access to the Figma sketch so the design is not pixel perfect.
+2. See the Games detils
+3. See Realted Games 
+4. Filter the result
+5. I do not have access to the Figma sketch so the design is not pixel perfect.
 
 ## Built with
  * React
