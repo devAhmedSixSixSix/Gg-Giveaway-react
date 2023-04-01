@@ -25,18 +25,18 @@ function NavigationBar() {
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3 text-white">
-                <Nav.Link as={Link} to="/">
-                  <h4 className="text-muted fw-lighter">Home</h4>
+              <Nav className="flex-grow-1 pe-3fw-lighter ">
+                <Nav.Link as={Link} to="/" className="text-white">
+                  Home
                 </Nav.Link>
-                <Nav.Link as={Link} to="/shop">
-                  <h4 className="text-muted fw-lighter">Shop</h4>
+                <Nav.Link as={Link} to="/shop" className="text-white">
+                  Shop
                 </Nav.Link>
-                <Nav.Link as={Link} to="/about">
-                  <h4 className="text-muted fw-lighter">About</h4>
+                <Nav.Link as={Link} to="/about" className="text-white">
+                  About
                 </Nav.Link>
-                <Nav.Link as={Link} to="/contact">
-                  <h4 className="text-muted fw-lighter">Contact us</h4>
+                <Nav.Link as={Link} to="/contact" className="text-white">
+                  Contact us
                 </Nav.Link>
               </Nav>
             </Offcanvas.Body>

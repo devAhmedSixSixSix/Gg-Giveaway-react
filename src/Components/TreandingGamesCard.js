@@ -10,7 +10,11 @@ function TreandingGamesCard({ item }) {
         className="w-100 rounded-3 mb-2"
         loading="lazy"
       />
-      <p>{item.platforms}</p>
+      <p>
+        {item.platforms.length > 22
+          ? item.platforms.slice(0, 22) + "..."
+          : item.platforms}
+      </p>
       <h6>
         {item.title.length > 22 ? item.title.slice(0, 22) + "..." : item.title}
       </h6>

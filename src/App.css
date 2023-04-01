@@ -18,6 +18,8 @@ body{
     width: 100%;
     display: flex;
     justify-content: center; 
+    flex-wrap: wrap; 
+    
 }
 
 
@@ -29,6 +31,7 @@ body{
     border-radius: 5px;
     border: solid 1px #212529;
     color: #fff;
+    display: block;
 }
 
 .paginationBttns a:hover {
@@ -39,4 +42,18 @@ body{
 .paginationActive a {
     background: #093f65;
     color: #fff !important;
+}
+
+.offcanvas-backdrop.show {
+    opacity: 1;
+    background-color: rgba(15, 23, 42, 1);
+    backdrop-filter: blur(8px);
+}
+
+.offcanvas {
+    background-color: #ffd700 !important
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
