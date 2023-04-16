@@ -15,7 +15,6 @@ Users should be able to:
 2. See the Games detils
 3. See Realted Games 
 4. Filter the result
-5. I do not have access to the Figma sketch so the design is not pixel perfect.
 
 ## Built with
  * React
